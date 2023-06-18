@@ -1,11 +1,11 @@
-About r-maldiquantforeign
-=========================
+About r-maldiquantforeign-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-maldiquantforeign-feedstock/blob/main/LICENSE.txt)
 
 Home: http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquantForeign/
 
 Package license: GPL (>= 3)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-maldiquantforeign-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for reading (tab, csv, Bruker fid, Ciphergen XML, mzXML, mzML, imzML, Analyze 7.5, CDF, mMass MSD) and writing (tab, csv, mMass MSD, mzML, imzML) different file formats of mass spectrometry data into/from 'MALDIquant' objects.
 
