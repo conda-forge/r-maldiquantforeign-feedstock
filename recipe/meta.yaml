@@ -1,4 +1,4 @@
-{% set version = "0.13" %}
+{% set version = "0.14" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MALDIquantForeign_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MALDIquantForeign/MALDIquantForeign_{{ version }}.tar.gz
-  sha256: 1952ab564f0f7b9fe992c5565452cbe61464a7ced575cac513741b989edbad77
+  sha256: c8dc2dc26ba8fe688d51b2fa8a3c5970e4a46b515874963d1c14e777129dc9d1
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
